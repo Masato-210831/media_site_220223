@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneakers</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header id="header">
+
+    <!-- ロゴ -->
+    <h1>
+      <a href="index.html">
+        <img src="img/logo.svg" alt="logo">
+      </a>
+    </h1>
+
+    <!-- 隠しナビリストのマスク -->
+    <div id="mask"></div>
+
+    <!-- 隠しナビリスト -->
+    <nav id="nav-container">
+      <ul id="nav-list">
+        <li>
+          <a href="#pickup">PICK UP</a>
+        </li>
+        <li>
+          <a href="#feature">FUTURE</a>
+        </li>
+        <li>
+          <a href="#contact">CONTACT</a>
+        </li>
+      </ul>
+
+      <ul id="nav-links">
+        <li>
+          <a href="https://twitter.com/">Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/">facebook</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/">instagram</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ハンバーガーボタン -->
+    <div id="header-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ビデオ -->
+    <div id="video-box">
+      <video id="video" loop muted autoplay playsinline>
+      </video>
+    </div>
+
+    <!-- ピックアップ -->
+    <section id="pickup">
+      <h2 class="subtitle">PICK UP</h2>
+
+      <!-- スライダー -->
+      <div class="swiper">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <img src="img/pickup1.jpg">
+          </li>
+          <li class="swiper-slide">
+            <img src="img/pickup2.jpg">
+          </li>
+          <li class="swiper-slide">
+            <img src="img/pickup3.jpg">
+          </li>
+          <li class="swiper-slide">
+            <img src="img/pickup4.jpg">
+          </li>
+          <li class="swiper-slide">
+            <img src="img/pickup5.jpg">
+          </li>
+          <li class="swiper-slide">
+            <img src="img/pickup6.jpg">
+          </li>
+          <li class="swiper-slide">
+            <img src="img/pickup7.jpg">
+          </li>
+          <li class="swiper-slide">
+            <img src="img/pickup8.jpg">
+          </li>
+          <li class="swiper-slide">
+            <img src="img/pickup9.jpg">
+          </li>
+        </ul>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!-- フューチャー -->
+    <section id="feature">
+      <h2 class="subtitle">FEATURE</h2>
+      <div id="grid-list">
+        <div class="item">
+          <img class="lazyload" data-src="img/feature1.jpg" data-expand="-20">
+          <div class="item-content">
+            <p class="item-category">category</p>
+            <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="item-date">XXXX.XX.XX</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="lazyload" data-src="img/feature2.jpg" data-expand="-20">
+          <div class="item-content">
+            <p class="item-category">category</p>
+            <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="item-date">XXXX.XX.XX</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="lazyload" data-src="img/feature3.jpg" data-expand="-20">
+          <div class="item-content">
+            <p class="item-category">category</p>
+            <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="item-date">XXXX.XX.XX</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="lazyload" data-src="img/feature4.jpg" data-expand="-20">
+          <div class="item-content">
+            <p class="item-category">category</p>
+            <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="item-date">XXXX.XX.XX</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="lazyload" data-src="img/feature5.jpg" data-expand="-20">
+          <div class="item-content">
+            <p class="item-category">category</p>
+            <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="item-date">XXXX.XX.XX</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="lazyload" data-src="img/feature6.jpg" data-expand="-20">
+          <div class="item-content">
+            <p class="item-category">category</p>
+            <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="item-date">XXXX.XX.XX</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="lazyload" data-src="img/feature7.jpg" data-expand="-20">
+          <div class="item-content">
+            <p class="item-category">category</p>
+            <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="item-date">XXXX.XX.XX</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="lazyload" data-src="img/feature8.jpg" data-expand="-20">
+          <div class="item-content">
+            <p class="item-category">category</p>
+            <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="item-date">XXXX.XX.XX</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="lazyload" data-src="img/feature9.jpg" data-expand="-10">
+          <div class="item-content">
+            <p class="item-category">category</p>
+            <p class="item-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p class="item-date">XXXX.XX.XX</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- コンタクト -->
+  <section id="contact">
+    <h2 class="subtitle">CONTACT</h2>
+    <div id="contact-container">
+
+      <!-- 左テキスト -->
+      <div class="left-text">
+        <p>テキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+
+      <!-- フォーム -->
+      <div class="contact-form">
+        <form action="#">
+          <dl>
+            <dt>
+              <label for="name">Name:</label>
+            </dt>
+            <dd>
+              <input type="text" id="name" name="your-name">
+            </dd>
+            <dt>
+              <label for="email">Mail:</label>
+            </dt>
+            <dd>
+              <input type="email" id="email" name="your-email">
+            </dd>
+            <dt>
+              <label for="message">Message:</label>
+            </dt>
+            <dd>
+              <textarea name="your-message" id="message"></textarea>
+            </dd>
+          </dl>
+          <div class="button">
+            <input type="submit" value="SEND">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p id="copyright">© Sneakers</p>
+  </footer>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/lazysizes.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
